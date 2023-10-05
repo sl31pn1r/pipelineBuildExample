@@ -5,7 +5,7 @@ metadata:
   namespace: openshift-gitops
 spec:
   destination:
-    namespace: liberty-rest
+    namespace: openshift-gitops
     server: https://kubernetes.default.svc
   ignoreDifferences:
   - group: argoproj.io
@@ -33,3 +33,7 @@ spec:
     path: build
     repoURL: https://github.com/sl31pn1r/pipelineBuildExample.git
     targetRevision: fix-for-s2i-image
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
