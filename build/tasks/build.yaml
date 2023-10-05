@@ -98,8 +98,6 @@ spec:
       securityContext:
         capabilities:
           add: ["SETFCAP"]
-      resources: {}
-      securityContext:
         privileged: true
       volumeMounts:
         - name: gen-source
