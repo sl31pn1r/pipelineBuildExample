@@ -7,7 +7,7 @@ spec:
     name: liberty-rest-app
   params:
     - name: source-git-url
-      value: https://github.com/marrober/pipelineBuildExample.git
+      value: https://github.com/sl31pn1r/pipelineBuildExample.git
     - name: source-git-revision
       value: fix-for-s2i-image
     - name: appName
@@ -15,7 +15,7 @@ spec:
     - name: appGroup
       value: Liberty
     - name: quay-io-account
-      value: "marrober"
+      value: "dkcapgemini"
     - name: quay-io-repository
       value: "liberty-rest"
     - name: quay-io-image-tag-name
