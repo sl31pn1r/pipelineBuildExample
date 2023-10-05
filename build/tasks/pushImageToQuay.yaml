@@ -35,8 +35,6 @@ spec:
       securityContext:
         capabilities:
           add: ["SETFCAP"]
-      resources: {}
-      securityContext:
         privileged: true
     - name: buildah-list-images-after-tagging
       command:
@@ -49,7 +47,6 @@ spec:
       securityContext:
         capabilities:
           add: ["SETFCAP"]
-      securityContext:
         privileged: true
     - name: push-image-to-quay
       command:
@@ -65,7 +62,6 @@ spec:
       securityContext:
         capabilities:
           add: ["SETFCAP"]
-      securityContext:
         privileged: true
       volumeMounts:
         - name: quay-auth-secret
