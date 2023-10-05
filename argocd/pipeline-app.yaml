@@ -33,3 +33,7 @@ spec:
     path: build
     repoURL: https://github.com/sl31pn1r/pipelineBuildExample.git
     targetRevision: main
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
