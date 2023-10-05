@@ -44,7 +44,6 @@ Table of Content
     6. [Test the application](#test-the-application)
 
 
-
 # Introduction
 OpenShift Pipelines is a Continuous Integration / Continuous Delivery (CI/CD) solution based on the open source Tekton project. The key objective of Tekton is to enable development teams to quickly create pipelines of activity from simple, repeatable steps. A unique characteristic of Tekton that differentiates it from previous CI/CD solutions is that Tekton steps execute within a container that is specifically created just for that task. This provides a degree of isolation that supports predictable and repeatable task execution, and ensures that development teams do not have to manage a shared build server instance. Additionally, Tekton components are Kubernetes resources which divests to the platform the management, scheduling, monitoring and removal of Tekton components.
 
