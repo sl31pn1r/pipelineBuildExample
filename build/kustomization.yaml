@@ -2,7 +2,7 @@ resources:
 - namespace/namespace.yaml
 - rolebindings/argocd-admin.yaml
 - image-streams/imageStream-liberty-rest-app.yaml 
-- persistentVolumes/task-cache-pvc.yaml 
+#- persistentVolumes/task-cache-pvc.yaml 
 - resources/imageStreamResource-intermediate.yaml 
 - resources/imageStreamResource-liberty-rest-app.yaml 
 - resources/sourceCode-GitResource.yaml 
