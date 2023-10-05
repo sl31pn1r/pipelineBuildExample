@@ -31,5 +31,5 @@ spec:
   project: default
   source:
     path: build
-    repoURL: https://github.com/marrober/pipelineBuildExample.git
+    repoURL: https://github.com/sl31pn1r/pipelineBuildExample.git
     targetRevision: main
