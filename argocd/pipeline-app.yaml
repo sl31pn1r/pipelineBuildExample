@@ -32,4 +32,4 @@ spec:
   source:
     path: build
     repoURL: https://github.com/sl31pn1r/pipelineBuildExample.git
-    targetRevision: main
+    targetRevision: fix-for-s2i-image
