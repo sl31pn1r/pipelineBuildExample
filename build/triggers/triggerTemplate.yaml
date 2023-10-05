@@ -53,6 +53,14 @@ spec:
           value: $(tt.params.commit.message)
         - name: commit_author
           value: $(tt.params.commit.author)
+        - name: intermediate-image
+          value: intermediate
+        - name: runtime-image
+          value: image-registry.openshift-image-registry.svc:5000/liberty-rest/liberty-rest-app
+        - name: source-git-url
+          value: $(tt.params.gitrepository.url)
+        - name: source-git-revision
+          value: $(tt.params.gitrevision)
       workspaces:
         - name: files
           volumeClaimTemplate:
