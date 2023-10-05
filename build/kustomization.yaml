@@ -1,5 +1,4 @@
 resources:
-- namespace/namespace.yaml
 - image-streams/imageStream-liberty-rest-app.yaml 
 - tasks/build.yaml 
 - tasks/clearResources.yaml 
