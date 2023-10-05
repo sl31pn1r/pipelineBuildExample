@@ -22,21 +22,6 @@ spec:
       serviceAccountName: pipeline
       pipelineRef:
         name: liberty-rest-app
-      resources:
-        - name: app-source
-          resourceSpec:
-            type: git
-            params:
-            - name: revision
-              value: $(tt.params.gitrevision)
-            - name: url
-              value: $(tt.params.gitrepository.url)
-        - name: intermediate-image
-          resourceRef:
-            name: intermediate
-        - name: runtime-image
-          resourceRef:
-            name: liberty-rest-app
       params:
         - name: templateFileName
           value: build/template/deploy-app-template.yaml
