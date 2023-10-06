@@ -6,7 +6,7 @@ resources:
 - tasks/pushImageToQuay.yaml
 - tasks/ocDeployApplication.yaml
 - pipelines/pipeline.yaml
-# - triggers/eventListener.yaml 
-# - triggers/eventListenerRoute.yaml 
-# - triggers/triggerBinding.yaml 
-# - triggers/triggerTemplate.yaml 
+- triggers/eventListener.yaml 
+- triggers/eventListenerRoute.yaml 
+- triggers/triggerBinding.yaml 
+- triggers/triggerTemplate.yaml 
